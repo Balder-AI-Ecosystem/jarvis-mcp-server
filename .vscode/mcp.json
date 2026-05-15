@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "jarvis": {
+      "type": "stdio",
+      "command": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+      "args": ["-m", "jarvis_mcp"],
+      "env": {
+        "JARVIS_CORE_URL": "http://localhost:8002",
+        "JARVIS_MCP_TRANSPORT": "stdio"
+      }
+    }
+  }
+}
